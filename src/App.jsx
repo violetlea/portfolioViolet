@@ -9,11 +9,11 @@ function App() {
 
   return (
     <>
-    <div className='border-2 border-black justify-items-center mt-10 p-4 grid grid-cols-1'>
+    <div className='border-2 border-black w-full justify-items-center mt-10 p-4 grid grid-cols-1'>
       <Navigation />
 
     </div>
-    <div className='border-2 border-red-400 justify-items-center mt-8 h-full grid grid-cols-1 p-8 w-full'>
+    <div className='border-2 border-red-400 justify-items-center mt-8 h-full grid grid-cols-1 p-4 md:p-10 w-full'>
       <Card />
     </div>
     

@@ -67,3 +67,8 @@ button:focus-visible {
   }
 }
  */
+ @import "tailwindcss";
+
+ .bodyBg {
+  @apply bg-[#E3D2FE]
+ }
