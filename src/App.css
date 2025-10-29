@@ -7,6 +7,18 @@
   --font-roboto: "Roboto", sans-serif
 }
 
+.bgCard {
+  background:
+      radial-gradient(at 80% 80%,rgba(255, 255, 255, 0.20) 25.4%,#0000 26%),
+      radial-gradient(at 20% 80%,rgba(255, 255, 255, 0.20) 25.4%,#0000 26%),
+      conic-gradient(from -45deg at 50% 41%,rgba(255, 255, 255, 0.20) 90deg,rgba(71, 212, 255, 0) 0) 
+        37.5px 0;
+background-size: 75px 75px;
+
+
+
+}
+
 
 /* #root {
   max-width: 1280px;

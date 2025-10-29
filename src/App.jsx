@@ -9,13 +9,18 @@ function App() {
 
   return (
     <>
-    <div className='border-2 border-black w-full justify-items-center mt-10 p-4 grid grid-cols-1'>
+    <div className='w-full justify-items-center mt-10 p-4 grid grid-cols-1'>
       <Navigation />
 
     </div>
-    <div className='border-2 border-red-400 justify-items-center mt-8 h-full grid grid-cols-1 p-4 md:p-10 w-full'>
+    <div className='justify-items-center mt-2 h-full grid grid-cols-1 p-4 md:p-10 w-full'>
       <Card />
     </div>
+
+    <footer className='p-20 text-center'>
+      <p>ich liebe pikachu</p>
+      <p>Made with react</p>
+    </footer>
     
       
     </>

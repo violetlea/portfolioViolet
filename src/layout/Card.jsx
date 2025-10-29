@@ -6,9 +6,20 @@ export default function Card () {
             rounded-xl bg-linear-to-r from-pink-400 via-rose-200 to-fuchsia-300
             shadow-md">
                 
+                
                 <div className="inset-shadow-sm inset-shadow-[#FF98E3]-500
-                h-100 w-80 md:h-110 md:w-90 p-4 rounded-xl bg-[#FF98E3] ">
+                h-100 w-80 md:h-110 md:w-90 rounded-xl bg-[#FF98E3]  ">
+                    <div className=" bgCard h-100 w-80 md:h-110 md:w-90 
+                        rounded-xl ">
+                            <div>
+                            <img src="src/images/250px-0007Squirtle.png" alt="squirtle" 
+                            className="h-10 hover:animate-bounce" />
+                            <p>test</p>
+                        </div>
 
+                        
+                    </div> 
+                    
                 </div> 
             </div>
         </>
