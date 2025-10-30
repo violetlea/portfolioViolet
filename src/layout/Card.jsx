@@ -2,7 +2,7 @@ export default function Card () {
     return (
         <>
             <div className="border border-white 
-            h-110 w-90 md:h-120 md:w-100 pt-4.5 pb-2 pr-2 pl-2 justify-items-center
+            h-110 w-90 md:h-120 md:w-100 pt-4.5 pb-2.5 pr-2 pl-2 justify-items-center
             rounded-xl bg-linear-to-r from-pink-400 via-rose-200 to-fuchsia-300
             shadow-md">
                 
@@ -11,11 +11,7 @@ export default function Card () {
                 h-100 w-80 md:h-110 md:w-90 rounded-xl bg-[#FF98E3]  ">
                     <div className=" bgCard h-100 w-80 md:h-110 md:w-90 
                         rounded-xl ">
-                            <div>
-                            <img src="src/images/250px-0007Squirtle.png" alt="squirtle" 
-                            className="h-10 hover:animate-bounce" />
-                            <p>test</p>
-                        </div>
+                           
 
                         
                     </div> 
