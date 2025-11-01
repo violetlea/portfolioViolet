@@ -22,17 +22,17 @@ export default function AboutMe() {
 						</div>
 					</div>
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-2 justify-items-center p-2">
-						<div className="border rounded-full p-2 w-full">
+						<div className="border border-gray-500 bg-neutral-200 rounded-full p-2 w-full">
 							<p>Name : {aboutMe.basicInfo.name}</p>
 						</div>
-						<div className="border rounded-full p-2 w-full">
+						<div className="border border-gray-500 bg-neutral-200 rounded-full p-2 w-full">
 							<p>Date of birth : {aboutMe.basicInfo.DOB}</p>
 						</div>
-						<div className="border rounded-full p-2 w-full">
+						<div className="border border-gray-500 bg-neutral-200 rounded-full p-2 w-full">
 							<p>Email : {aboutMe.basicInfo.mail}</p>
 						</div>
-						<div className="border rounded-full p-2 w-full">
-							<p>Email : {aboutMe.basicInfo.location}</p>
+						<div className="border border-gray-500 bg-neutral-200 rounded-full p-2 w-full">
+							<p>Location : {aboutMe.basicInfo.location}</p>
 						</div>
 					</div>
 					<div className="p-4 w-full">
