@@ -60,7 +60,7 @@ export default function Card() {
 								</div>
 								<div className="absolute bottom-25 left-1">
 									<h2 className="text-sm textStroke font-bold">
-										She can spot a cat within a seconds and steal opponent's
+										She can spot a cat within a second and steal opponent's
 										cat!
 									</h2>
 								</div>
